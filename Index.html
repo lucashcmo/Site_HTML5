@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script  src="https://code.jquery.com/jquery-3.6.0.min.js"  
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  
+        crossorigin="anonymous">
+        </script>
+        <script
+        src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+        integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA="
+        crossorigin="anonymous"></script>
+    </head>
+    <body style="background-color: #DEDFE0; margin: 0%;">
+        <div class="parent">
+            <header style="position: fixed; width: 100%; display: block; padding-bottom: 15px;">
+                <div class="box" id="box1">
+                    <div class="search">
+                        <input type="text" placeholder="Pesquisar">
+                        </input>
+
+                        <button type="submit" id="search"><i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+
+                        <button id="carttotal"><i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="box" id="box2">
+                    <img src="content/Genshin_Impact_logo.png" id="giga" style=" width: 246px; margin: 16px;">
+                </div>
+                <div class="box" id="box3">
+                </div>
+            </header>
+
+            <div class="separador"></div>
+
+            <div class="areaprodutopai">
+                <p style="margin-left: auto; margin-right: auto; font-family: genshin; font-size: 25px;">Products</p>
+                <div class="areaproduto">
+                    <div class="produto" id="produto1">
+                        <div class="detalhes" id="primordial jade winged-spear">
+                            <img src="content/jade_spear.png" style="width: 60%; margin: 20px;">
+                        </div>
+
+                        <div class="detalhes" id="descricao">
+                            <p>Primordial Jade Winged-Spear</p>
+                            <p>50$</p>
+                        </div>
+
+                        <div>
+                            <button class="addshop">
+                                <p class="cart" style="font-family: genshin;"> Add to Cart
+                                </p>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                        </div>
+                    </div>
+
+                    <div class="produto" id="produto2">
+                        <div class="detalhes" id="wolf's gravestone">
+                            <img src="content/wolf_gravestone.png" style="width: 60%; margin: 20px;">
+                        </div>
+
+                        <div class="detalhes" id="descricao">
+                            <p>Wolf's Gravestone</p>
+                            <p>50$</p>
+                        </div>
+
+                        <div>
+                            <button class="addshop">
+                                <p class="cart" style="font-family: genshin;"> Add to Cart
+                                </p>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                        </div>
+                    </div>
+
+                    <div class="produto" id="produto3">
+                        <div class="detalhes" id="memory of dust">
+                            <img src="content/memory_of_dust.png" style="width: 60%; margin: 20px;">
+                        </div>
+
+                        <div class="detalhes" id="descricao">
+                            <p>Memory of Dust</p>
+                            <p>50$</p>
+                        </div>
+
+                        <div>
+                            <button class="addshop">
+                                <p class="cart" style="font-family: genshin;"> Add to Cart
+                                </p>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="areaproduto">
+                    <div class="produto" id="produto1">
+                        <div class="detalhes" id="freedom sworn">
+                            <img src="content/freedom_sworn.png" style="width: 60%; margin: 20px;">
+                        </div>
+
+                        <div class="detalhes" id="descricao">
+                            <p>Freedom Sworn</p>
+                            <p>50$</p>
+                        </div>
+
+                        <div>
+                            <button class="addshop">
+                                <p class="cart" style="font-family: genshin;"> Add to Cart
+                                </p>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                        </div>
+                    </div>
+
+                    <div class="produto" id="produto2">
+                        <div class="detalhes" id="thundering pulse">
+                            <img src="content/thundering_pulse.png" style="width: 60%; margin: 20px;">
+                        </div>
+
+                        <div class="detalhes" id="descricao">
+                            <p>Thundering Pulse</p>
+                            <p>50$</p>
+                        </div>
+
+                        <div>
+                            <button class="addshop">
+                                <p class="cart" style="font-family: genshin;"> Add to Cart
+                                </p>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                        </div>
+                    </div>
+
+                    <div class="produto" id="produto3">
+                        <div class="detalhes" id="aquila favonius">
+                            <img src="content/aquila_favonius.png" style="width: 60%; margin: 20px;">
+                        </div>
+
+                        <div class="detalhes" id="descricao">
+                            <p>Aquila Favonius</p>
+                            <p>50$</p>
+                        </div>
+
+                        <div>
+                            <button class="addshop">
+                                <p class="cart" style="font-family: genshin;"> Add to Cart
+                                </p>
+                                <i class="fa-solid fa-cart-plus"></i>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footerbox">
+                <footer>
+                    <p>Meus contatos: 
+                        <a href="https://www.linkedin.com/in/lucashcmoliveira/" style="font-family: genshin;">Linkedin</a>
+                        <a href="https://github.com/lucashcmo" style="font-family: genshin;">GitHub</a>
+                    </p>
+                    <p class="disclaimer">Disclaimer: this website is made by a student in order to practice, this is not a real site and we'll not ask for personal information and passwords.</p>
+                    <p class="disclaimer">Also we do NOT hold any rights for any image included in this site, and the site is NOT monetized.</p>
+                </footer>
+            </div>
+        </div>
+
+        <div id="dialogo"  title="Average Genshin Enjoyer">
+            <img src="content/biggusdickus.jpg" style="width: 72%;">
+        </div>
+
+        <div class="shopcart">
+            <div style="width: 100%; height: 3%; display: inline-flex;">
+                <div id="addtotal" style="float: left; width: 50%;"></div>
+                <button id="closecart"><i class="fa-solid fa-x"></i></button>
+            </div>
+            <div class="itemarray">
+
+            </div>
+        </div>
+
+        <audio id="song" src="content/sigma_grindset.mp3"></audio>
+        <div id="total"></div>
+    </body>
+
+    <script>
+        $('#search').click(function() {
+            alert('esse botão não funciona, ainda');
+        });
+        $('#carttotal').click(function() {
+            $('.shopcart').show();
+            $('#addtotal').text('Total: ' +  $('#total').val() + '$');
+        });
+        $('#closecart').click(function(){
+            $('.shopcart').hide();
+        })
+        $('#giga').click(function() {
+            $("#dialogo").dialog();
+            $('#song')[0].volume=0.4;
+            $('#song')[0].play();
+        });
+        $(function() {
+            $('#dialogo').on('dialogclose', function(event) {
+                $('#song')[0].pause();
+        });
+        });
+        $(document).ready(function() {
+            $('#dialogo').hide();
+            $('.shopcart').hide();
+            $('#total').val(0);
+        })
+        $('.addshop').click(function(){
+            var objeto = $(this).children('p');
+            var produto = objeto.parent().parent().parent().children().first().attr('id');
+            var valor1 = parseInt($('#total').val());
+            var valor2 = valor1 + 50;
+            $('#total').val(valor2);
+            $('.itemarray').append('<div class=\"item\"> (50$) ' + produto.toString() + '</div>');
+            objeto.text('Added');
+            setTimeout(function(){
+                objeto.text('Add to Cart');
+            }, 2000)
+        })
+    </script>
+</html>

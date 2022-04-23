@@ -1,0 +1,171 @@
+
+@font-face {
+    font-family: genshin;
+    src: url(content/ja-jp.ttf);
+}
+p{
+    font-family: genshin;
+}
+body{
+    font-family: genshin;
+}
+.disclaimer{
+    font-family: genshin;
+    font-size: 12px;
+}
+.box{
+    height: 200px;
+}
+.search{
+    margin-top: auto;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-bottom: auto;
+    box-shadow: 3px 4px 9px 0px;
+}
+#box1{
+    background-image: url('content/genshin_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    width: 70%;
+    text-align: center;
+    vertical-align: middle;
+}
+#box2{
+    background-image: url('content/genshin_bg.jpg');
+    background-position: left;
+    filter: blur(3px);
+    float: left;
+    width: 15%;
+}
+#box3{
+    background-image: url('content/genshin_bg.jpg');
+    background-position: right;
+    filter: blur(3px);
+    float: right;
+    width: 15%;
+}
+.separador{
+    background-color: #DEDFE0;
+    height: 225px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.areaprodutopai{
+    background-color: #ffffff;
+    height: 100vh;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    text-align: center;
+}
+.areaproduto{
+    background-color: #ffffff;
+    height: 40vh;
+    width: 90%;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.produto{
+    background-color: #ffffff;
+    height: 38vh;
+    width: 28%;
+    display: block;
+    box-shadow: 1px 2px 7px 3px #919090;
+}
+.produto:hover{
+    height: 40vh;
+    width: 30%;
+    cursor: pointer;
+    border:5px solid #9EC2E6;
+}
+.addshop{
+    background-color: #64E874;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 120px;
+    display: inline-flex;
+}
+.addshop:hover{
+    background-color: #275C2E;
+    cursor: pointer;
+    display: inline-flex;
+}
+#produto1{
+    margin-right: 55px;
+    display: inline-block;
+}
+#produto2{
+    margin-right: 55px;
+    display: inline-block;
+}
+#produto3{
+    display: inline-block;
+}
+.fa-cart-plus{
+    margin-top: 14%;
+    margin-left: 5%;
+}
+.footerbox{
+    background-color: #ACADAD;
+    height: 130px;
+    border: solid 2px #6e6e6e;
+    box-shadow: 1px -1px 3px 0px #6e6e6e;
+    position: absolute;
+    width: 99.7%;
+}
+.shopcart{
+    background-color: #DEDFE0;
+    height: 60%;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    position: fixed;
+    z-index: 1;
+    overflow-y: scroll;
+    box-shadow: 1px 1px 20px 3px;
+}
+#closecart{
+    margin-left: 50%;
+    margin-right: 1%;
+    float: right;
+    border: none;
+    border-radius: 10px;
+    background-color: #DEDFE0;
+}
+#closecart:hover{
+    background-color: #6e6e6e;
+    cursor: pointer;
+}
+.item{
+    background-color: #ffffff;
+    border: 1px solid #919090;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 3px 4px 6px -1px;
+}
+.itemarray{
+    width: 100%;
+    height: 97%;
+}
+#descricao{
+    font-family: genshin;
+}
